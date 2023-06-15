@@ -5,13 +5,14 @@
 }
 
 body {
-    background-color: #D6E4E5;
+    /* background-color: #D6E4E5; */
+    background-color: #EFF5F5;
 }
 
 /* .....................Navbar...................... */
 .navbar {
     display: flex;
-    background-color: #EFF5F5;
+
     height: 70px;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +57,8 @@ nav ul li a {
 /* ...............................canvas.................................. */
 
 .canvas {
-    /* background-color: ; */
+    background-color: #D6E4E5;
+    height: 700px;
 }
 
 
