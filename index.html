@@ -8,6 +8,8 @@
     <title>FitFluencer | Dashboard</title>
     <!-- dashboard.css -->
     <link rel="stylesheet" href="dashboard.css">
+    <!-- profile.css -->
+    <link rel="stylesheet" href="profile.css">
 
     <script src="https://kit.fontawesome.com/d13807cb98.js" crossorigin="anonymous"></script>
 </head>
@@ -31,6 +33,45 @@
         <!-- <hr> -->
         <!-- Canvas -->
         <div class="canvas">
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="Mprofile.png" alt="profile">
+                </div>
+                <div class="profile-name">
+                    <strong>
+                        Manish
+                    </strong>
+                    <strong>
+                        Khaptawala
+                    </strong>
+                </div>
+            </div>
+            <hr class="hrs">
+            <div class="edit">
+                <a href="editprofile"><i class="fa-solid fa-user-pen"></i> Edit Profile</a>
+                <a href="editlogs"><i class="fa-solid fa-file-pen"></i> Edit Logs</a>
+            </div>
+            <div class="options">
+                <a href=""><i class="fa-solid fa-notes"></i> Health Logs</a>
+                <hr>
+                <a href=""><i class="fa-regular fa-circle-three-quarters-stroke"></i> Progress Reports</a>
+                <hr>
+                <a href=""><i class="fa-regular fa-alarm-clock"></i> Reminders</a>
+                <hr>
+                <a href=""><i class="fa-regular fa-bullseye-arrow"></i> Goals and Budgets</a>
+            </div>
+            <div class="options">
+                <a href=""><i class="fa-solid fa-notes-medical"></i> Health and Medical information</a>
+                <hr>
+                <a href=""><i class="fa-sharp fa-solid fa-square-question"></i> Help & Support</a>
+                <hr>
+                <a href=""><i class="fa-solid fa-gear"></i> Settings</a>
+            </div>
+            <div class="form">
+                <form action="/logout?_method=DELETE" method="POST">
+                    <button class="logout-btn" type="submit">Logout</button>
+                </form>
+            </div>
 
         </div>
 
