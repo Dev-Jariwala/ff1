@@ -1,3 +1,16 @@
+:root {
+
+    /* green theme/---- */
+    /* --dark: #5aacaa;
+    --light: #D6E4E5;
+    --lightest: #EFF5F5; */
+
+    /* yellow theme/----- */
+    --dark: #f7c83b;
+    --light: #F5F0BB;
+    --lightest: #F9FBE7;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +19,7 @@
 
 body {
     /* background-color: #D6E4E5; */
-    background-color: #EFF5F5;
+    background-color: var(--lightest);
 }
 
 /* .....................Navbar...................... */
@@ -17,10 +30,11 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
+    border-bottom: 1px solid #ccc;
 }
 
 .nav-title{
-    color: #5aacaa;
+    color: var(--dark);
     font-size: 22px;
 }
 .nav-title span{
@@ -37,12 +51,12 @@ nav ul li {
     list-style: none;
     margin: 0 15px;
     cursor: pointer;
-    color: #5aacaa;
+    color: var(--dark);
 }
 
 nav ul li a {
     font-size: 20px;
-    color: #5aacaa;
+    color: black;
     text-decoration: none;
 }
 
@@ -57,14 +71,18 @@ nav ul li a {
 /* ...............................canvas.................................. */
 
 .canvas {
-    background-color: #D6E4E5;
-    height: 700px;
+    background-color: var(--light);
+    height: 850px;
 }
-
+.hrs{
+    width: 80%;
+    margin: auto;
+    color: black;
+}
 
 /* .........................footer.............................. */
 .footer{
-    background-color: #EFF5F5;
+    background-color: var(--lightest);
     height: 50px;
     position: fixed;
     bottom: 0;
@@ -73,9 +91,11 @@ nav ul li a {
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
+    /* border: 1px solid #ccc; */
+    border-top: 1px solid #ccc;
 }
 .footer a{
     font-size: 20px;
-    color: #5aacaa;
+    color: black;
     text-decoration: none;
 }
